@@ -5,6 +5,6 @@ import (
 	"net/http"
 )
 
-func create(response http.ResponseWriter, request *http.Request) string {
+func create(response http.ResponseWriter, request *http.Request) {
 	return fmt.Fprintf(response, "Hello World")
 }
